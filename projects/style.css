@@ -1,0 +1,117 @@
+
+.pagetitle {
+    color: hotpink;
+    text-align: left;
+}
+
+.pagetitle:hover {
+  color: lightseagreen;
+  background-color: purple;
+  animation: 2s;
+}
+
+.topnav {
+    ul {
+        list-style-type: none;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightblue;
+ 
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: hotpink;
+        transition: 0.7s;
+        left: 0;
+      }
+}
+
+.mapembed {
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.box {
+    position: relative;
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    float: left;
+}
+.boxr {
+  position: relative;
+  border-radius: 25px;
+  width: 500px;
+  height: 600px;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+  float: left;
+}
+
+.boximg {
+    width: 40%;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border-radius: 40%;
+}
+.regiondescription {
+    text-decoration-line: underline;
+}
+
+.interestbox {
+  position: relative;
+  width: 400px;
+  height: 700px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  color: purple;
+  display: inline-block;
+}
+
+.interestdesc {
+  margin: 20px;
+}
+
+.interestimg {
+  position: relative;
+  border-radius: 40px;
+  width: 50%;
+  margin-left: 98px;
+  margin-top: auto;
+}
+
+.listcaptioninterest {
+  text-align: center;
+}
+
+.intereststitle {
+  text-align: center; 
+  text-decoration-line: underline;
+}
+
+.intereststitle:hover {
+  text-decoration: none;
+  background-color: purple;
+}
